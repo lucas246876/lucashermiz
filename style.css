@@ -1,78 +1,50 @@
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f9f9f9;
     color: #333;
+    background: #f9f9f9;
 }
 
-/* Header Section */
 header {
-    text-align: center;
-    padding: 20px;
     background: #007bff;
     color: #fff;
-}
-.profile-photo {
-    width: 150px;
-    border-radius: 50%;
-    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
 }
 
-/* Projects Section */
-#projects {
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+}
+
+main {
     padding: 20px;
-    background: #fff;
 }
-.project {
+
+section {
     margin-bottom: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.project a {
-    text-decoration: none;
+
+section h2 {
+    margin-top: 0;
     color: #007bff;
 }
 
-/* Skills Section */
-#skills {
-    padding: 20px;
-    background: #f4f4f4;
-}
-#skills ul {
-    display: flex;
-    gap: 15px;
+ul {
     list-style: none;
     padding: 0;
 }
 
-/* Contact Section */
-#contact {
-    padding: 20px;
-    background: #fff;
-}
-#contact form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-#contact input, #contact textarea {
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-}
-#contact button {
-    padding: 10px;
-    background: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-#contact button:hover {
-    background: #0056b3;
+ul li {
+    margin-bottom: 10px;
 }
